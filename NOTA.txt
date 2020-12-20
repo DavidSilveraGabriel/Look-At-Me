@@ -35,5 +35,16 @@ superuser: davidsilvera
 email: ingenieria.d.s.g@hotmail.com
 pass: areyoukidingme
 
+LOS PROXIMOS 3 COMANDOS SOLO SE HACEN UNA VEZ POR PROYECTO
 git init INICIALIZA EL PROYECTO GIT PARA GESTIONAR LAS VERSIONES Y CAMBIOS 
+git config --global user.name DavidSilveraGabriel
+git config --global user.email ingenieria.d.s.g@hotmail.com 
+
 git status INFORMA SOBRE EL ESTADO DEL PROYECTO 
+
+git add --all . AGREGA TODOS LOS ARCHIVOS AL REPOSITORIO
+git commit -m "primer commit" COMANDO PARA AGREGAR CAMBIOS 
+
+git branch -M main HACER UN BRANCH A LA RUTA MAIN
+git remote add origin https://github.com/DavidSilveraGabriel/Look-At-Me.git ENLAZAR CON MI REPOSITORIO DE GITHUB
+git push -u origin main ENVIAR TODO AL GITHUB A LA RAMA MAIN QUE ANTES ERA MASTER PERO A LOS ZURDOS TROLOS LES OFENDIA 
