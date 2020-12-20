@@ -1,0 +1,39 @@
+python --version VER LA VERSION DE PYTHON
+python -m venv Dweb(nombre del entorno) COMANDO PARA INICIALIZAR UN ENTORNO VIRTUAL
+activate COMANDO QUE SE TIENE QUE EJECUTAR PARA INICIALIZAR EL ENTORNO VIRTUAL(necesitamos estar adentro del directorio script)
+deactivate COMANDO PARA DESACTIVAR EL ENTORNO VIRTUAL
+python -m pip install --upgrade pip ASEGURARSE DE QUE PIP ISTE ACTUALIZADO
+pip install -r requirement.txt INTALAR LOS REQUERIMIENTOS
+django-admin.exe startproject Myblog . COMANDO IMPORTANTE PARA INICIALIZAR TODOS LOS DIRECTORIOS Y ARCHIVOS PARA EMPEZAR EL PROYECTO
+EN MANAGE.PY
+TIME_ZONE = 'America/Argentina/San_Luis'
+LANGUAGE_CODE = 'es-es'
+
+STATIC_URL = '/static/'
+STATIC_ROOT = os.path.join(BASE_DIR, 'static')
+python manage.py migrate COMANDO PARA REALIZAR LAS MIGRACIONES NECESARIAS; NECESITAMOS ESTAR EN EL DIRECTORIO DONDE ESTA MANAGE Y ESTO EJECUTARA TODO JUNTO CON LA BASE DE DATOS
+
+python manage.py runserver COMANDO PARA EJECUTAR EL SERVIDOR
+
+ http://127.0.0.1:8000/ DIRECCION PARA EL GOOGLE
+ CTRL-cPARA TERMINAR EL SERVIDORMAN
+ manage.py PARA AYUDA
+
+ python manage.py startapp blog INICIAR UNA APLICACION
+
+ python manage.py makemigrations blog REALIZA ACTUALIZACIONES 
+
+ python manage.py migrate blog APLICAR LOS ARCHIVOS A LA BASE DE DATOS
+
+ python manage.py runserver EJECUTAR EL SERVIDOR
+
+ Ctrl + c PARA TERMINAR EL SERVIDOR
+
+ python manage.py createsuperuser PARA CREAR UN SUPERUSUARIO OSEA EL ADMINISTRADOR DEL SITIO
+
+superuser: davidsilvera
+email: ingenieria.d.s.g@hotmail.com
+pass: areyoukidingme
+
+git init INICIALIZA EL PROYECTO GIT PARA GESTIONAR LAS VERSIONES Y CAMBIOS 
+git status INFORMA SOBRE EL ESTADO DEL PROYECTO 
