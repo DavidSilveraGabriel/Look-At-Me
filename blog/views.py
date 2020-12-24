@@ -2,6 +2,7 @@ from django.shortcuts import render, get_object_or_404
 from .models import Post #el punto indica que esta en el directorio actual
 from django.utils import timezone
 from .forms import PostForm
+from django import forms
 
 # Create your views here.
 def post_list(request):
