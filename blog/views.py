@@ -1,4 +1,4 @@
-from django.shortcuts import render, get_object_or_404
+from django.shortcuts import render, get_object_or_404,redirect
 from .models import Post #el punto indica que esta en el directorio actual
 from django.utils import timezone
 from .forms import PostForm
